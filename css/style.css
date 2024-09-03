@@ -586,7 +586,11 @@ align-items: center;
         border-radius: 0.3rem;
         background: #F6E1C5 !important;
         position: relative;
+<<<<<<< HEAD
         margin-left: 0rem;
+=======
+        margin-left:0rem;
+>>>>>>> 99b38a105fecd661cbfc99085331fd3293a49161
         /* margin-top: 4rem; */
         display: flex;
         flex-direction: column;
