@@ -1,0 +1,643 @@
+
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+:root {
+    /* Background Color */
+    --secondary-color: #f77949;
+    --bg-blue: #37418e;
+    --bg-white: #fff;
+    --bg-dark-blue: #292b70;
+    --bg-gray:#ecf0f9;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-blue: #1f294c;
+    --text-gray: #6d6e7b;
+    --text-white: #fff;
+
+    /* Fonts */
+    --primary-font: 'Open Sans Condensed', sans-serif;
+    --secondary-font: 'open sans', sans-serif;
+}
+ .principal{
+     background-image: url(../images/product.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     position: absolute;
+     overflow: hidden;
+     object-fit: cover;
+     z-index: -1;
+ }
+ .contain{
+    background: rgba(34, 24, 24, 0.6);
+    width: 100%;
+
+ }
+/* -- la partie premiere -- */
+.FREE{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px  50px;
+}
+.A-free{
+    left: 50%;
+    top: 3.8rem;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: #CB0D0D;
+}
+.cusual{
+    /* margin: 0 0 5.2rem 0.2rem; */
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 4.8rem;
+    color: #FFFFFF;
+}
+/* <!-- la partier header  --> */
+.navbar{
+    background: #490909 !important;
+    position:relative;
+    margin:0 1px 102px 2px;
+    height: 4rem;
+}
+.nav-link{
+    color: var(--bg-white);
+}
+ 
+ul li a{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* -- la deuxieme partie FRESH COFEE -- */
+
+
+.cont{
+    position: relative;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    z-index: 1;
+
+}
+
+/* .cofee .work{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}  */
+.Cafe-fre{
+    background:#F6E1C5 !important;
+    width: 20rem;
+    margin-bottom: -2rem;
+    border-radius: 0.3rem;
+
+}
+.Cafe-fre{
+    padding: 40px 30px;
+}
+.visit{
+    padding-left: 5rem;
+    margin-top: -2rem;
+
+
+}
+.visit button{
+
+        /* padding-top: 20px; */
+        padding-right: 45px;
+        /* padding-bottom: 20px; */
+        padding-left: 59px;
+        border-radius: 0.3rem;
+        display: flex;
+        justify-content: center;
+        background: #7B261A;
+        color: #FFFFFF;
+    
+}
+/* .cofee .image img{
+    background: url(../images/unsplash_gfr_bmip_od_e.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    width: 54rem;
+    height: 36rem;
+     z-index: -1;  
+} */
+
+/* -- 2eme section sur OUR PROMISE -- */
+  
+.you{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgba(165, 52, 43, 0.69);  
+}
+.borde{
+    border: 1px solid #F6E1C5;
+    margin: 52px 20px
+}
+.to{
+    background: #F6E1C5 !important;
+    margin: 20px 20px;
+}
+ .our{
+    
+        /* padding: 5rem 10rem; */
+        padding-left: 11rem;
+        padding-right: 11rem;
+        padding-right: 11rem;
+        padding-top: 11rem;
+        padding-bottom: 11rem;
+    
+     
+}
+.PROMISE{
+    margin-bottom: 2rem;
+
+}
+.PROMISE span{
+    font-size: 2rem;
+}
+.PROMISE .sit{
+    font-size: 2rem;
+}
+
+/* about */
+.unsplashpo-i-7-del-fi-va img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    left: 8.3rem;
+    right: 8.7rem;
+    bottom: 37.9rem;
+    height: 26.1rem;
+    width: 206%;
+}
+.container-1 {
+    border-radius: 0.3rem;
+    background: #F6E1C5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem 1.3rem 1.1rem 1.1rem;
+    width: fit-content;
+    box-sizing: border-box;
+    width: 57rem;
+    right: -5rem;
+    top: -4rem;
+}
+.adipiscing{
+    margin-bottom: 2.3rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #000000;
+}
+.pellentesque{
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: #000000;
+}
+ /* PRODUCTS */
+ /* -- PREMIER PARTIEE -- */
+ .unsplash-mzy-ojt-ci-701 img{
+    /* background: url(images/unsplash_mzy_ojt_ci_701.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 60%; */
+    /* right: 12rem; */
+    /* translate: -50% -50%; */
+    width: 52.8rem;
+    height: 37.8rem; 
+}
+
+.container-2 {
+    border-radius: 0.3rem;
+    background: #F6E1C5 !important;
+    position: relative;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+    box-sizing: border-box;
+    width: 18rem;
+}
+.container-3 {
+    border-radius: 0.3rem;
+    background: #F6E1C5;
+    /* position: absolute; */
+    /* right: 0; */
+    margin-top: 14rem;
+    /* top: 15rem; */
+    bottom: 0rem;
+    display: flex;
+    padding: 2.5rem 2.8rem 1.1rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 30rem;
+}
+/* -- DEUXIEME PARTIE -- */
+.unsplash_mxovq_m_130 img{
+    /* background: url(images/unsplash_mzy_ojt_ci_701.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 60%; */
+    /* right: 12rem; */
+    /* translate: -50% -50%; */
+    width: 52.8rem;
+    height: 37.8rem; 
+}
+
+.container-4 {
+    border-radius: 0.3rem;
+    background: #F6E1C5 !important;
+    position: relative;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+    box-sizing: border-box;
+    width: 18rem;
+     
+}
+.container-5 {
+    
+        border-radius: 0.3rem;
+        background: #F6E1C5;
+        /* position: absolute; */
+        right: -46rem;
+        margin-top: 20rem;
+        /* top: 15rem; */
+        bottom: 0rem;
+        display: flex;
+        padding: 0.5rem 0.8rem 1.1rem 2rem;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        width: 28rem;
+    
+}
+
+/* -- TROISIEM PARTIEE -- */
+.unsplash-mzy-ojt-ci-70 img{
+    /* background: url(images/unsplash_mzy_ojt_ci_701.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 60%; */
+    /* right: 12rem; */
+    /* translate: -50% -50%; */
+    width: 52.8rem;
+    height: 37.8rem; 
+}
+
+.container-6 {
+    border-radius: 0.3rem;
+    background: #F6E1C5 !important;
+    position: relative;
+    margin-left: 56rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+    box-sizing: border-box;
+    width: 18rem;
+}
+.container-7 {
+    border-radius: 0.3rem;
+    background: #F6E1C5;
+    /* position: absolute; */
+    /* right: 0; */
+    margin-top: 14rem;
+    /* top: 15rem; */
+    bottom: 0rem;
+    display: flex;
+    padding: 2.5rem 2.8rem 1.1rem 2rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 30rem;
+}
+
+ /* -- Product -- */
+  
+ .pro{
+    background: #F6E1C5;
+    width: 50%;
+    height: auto;
+
+ }
+.imgé {
+    background-image: url(../images/unsplash_mxovq_m_130_ui.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 90%;
+    right: 12rem;
+    translate: 0 -50%;
+    width: 52.8rem;
+    height: 37.8rem;
+}
+.pro h1{
+    border-radius: 0.3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+    box-sizing: border-box;
+}
+/* come on in */
+
+.com{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.com p{
+    text-align: center;
+}
+.com p span .on{
+    font-size: 2rem;
+    
+}
+.com p span .OPEN{
+    font-size: 3rem;
+
+}
+.COME .container-14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26rem;
+}
+.COME .container-15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21rem;
+}
+.COME .store{
+  background: rgba(165, 52, 43, 0.69);
+  width:  100%;
+  height: 50rem;
+}
+.COME .principale{
+  border-radius: 0.3rem;
+  background: #F6E1C5 ;
+  /* width: 52.9rem;     */
+  height: 39.6rem;
+  /* padding: 10rem 20rem; */
+}
+.COME .princ{
+ padding-top:   5rem;
+}
+.COME .princ2{
+    border: 0.2rem solid #CD5449;
+    padding: 10px 10px
+}
+.container-Y p{
+  background: #CFAFAD;
+  width: 34.1rem;
+  height: 0.1rem;
+  margin-bottom: 0.3rem;
+  position: relative;
+  margin-left: 17rem;
+
+}
+.Satur{
+    margin-bottom: 2rem;
+}
+.Valley{
+    margin-bottom: 4rem;
+
+}
+.container-B{
+    padding-left: 12rem;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #311919;
+    color: antiquewhite;
+    height: 4rem;
+}
+.footer p{
+ padding-top:1rem  ;
+ 
+}
+ @media  (max-width:760px){
+    .cofee{
+         flex-direction: column;
+        margin: 0;
+        padding: 1.9rem 0 .9rem 0;
+        width: 73.5rem;
+    }
+    ul{
+        margin-top: 0;
+       }
+       .our {
+           padding: 2rem 2rem;
+       }
+       .visit {
+        margin-bottom: 1rem;
+    }
+       .cofee button {
+        padding-top: 16px;
+        padding-right: 28px;
+        padding-bottom: 16px;
+        padding-left: 30px;
+    }
+    .cont{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        z-index: 1;
+    
+    }
+    .cofee .image img{
+        width: 50rem;
+        position: relative;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* z-index: -1; */
+    }
+    /* about */
+     .unsplashpo-i-7-del-fi-va img{
+        width: 100%;
+     }
+     .container-1{
+        right: 0;
+        width: 22rem;
+     }
+     .adipiscing {
+        font-weight: 300;
+        font-size: 14px;
+     }
+     /* -- PREMIER PARTIEE -- */
+      
+     .container-2 {
+        border-radius: 0.3rem;
+        background: #F6E1C5 !important;
+        position: relative;
+        margin-left: 0rem;
+        /* margin-top: 4rem; */
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+        box-sizing: border-box;
+        width: 22rem;
+        bottom: -25rem;
+    }
+    .unsplash-mzy-ojt-ci-701 img{
+        width: 21.8rem;
+     }
+.container-3 {
+    border-radius: 0.3rem;
+    background: #F6E1C5;
+    /* position: absolute; */
+    /* right: 0; */
+    /* margin-top: 14rem; */
+    /* top: 15rem; */
+    bottom: -37rem;
+    display: flex;
+    padding: 0.5rem 0.8rem 1.1rem 1rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 22rem;
+}
+     
+    
+    
+     /* -- DEUXIEME PARTIE -- */
+     .container-4{
+        border-radius: 0.3rem;
+        background: #F6E1C5 !important;
+        position: relative;
+        margin-left: 0rem;
+        /* margin-top: 4rem; */
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+        box-sizing: border-box;
+        width: 22rem;
+        bottom: -31rem;
+     }
+     .unsplash_mxovq_m_130 img{
+        width: 21.8rem;
+     }
+     .container-5{
+        border-radius: 0.3rem;
+        background: #F6E1C5;
+        /* position: absolute; */
+        right: 0;
+        /* margin-top: 14rem; */
+        /* top: 15rem; */
+        bottom: -37rem;
+        display: flex;
+        padding: 0.5rem 0.8rem 1.1rem 1rem;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        width: 22rem;
+     }
+     /* -- TROISIEM PARTIEE -- */
+     .container-6{
+        border-radius: 0.3rem;
+        background: #F6E1C5 !important;
+        position: relative;
+        margin-left: 56rem;
+        /* margin-top: 4rem; */
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem 2.1rem 2.4rem 2.3rem;
+        box-sizing: border-box;
+        width: 22rem;
+        bottom: -31rem;
+     }
+     .unsplash-mzy-ojt-ci-70 img{
+        width: 21.8rem;
+
+     }
+     .container-7{
+        border-radius: 0.3rem;
+        background: #F6E1C5;
+        
+        bottom: -37rem;
+        display: flex;
+        padding: 0.5rem 0.8rem 1.1rem 1rem;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        width: 22rem;
+     }
+     .COME .container-14{
+        gap: 9rem;
+     }
+     .COME .container-15{
+        gap: 4rem;
+     }
+     .container-Y p{
+        background: #CFAFAD;
+        width: 17.1rem;
+        height: 0.1rem;
+        margin-bottom: 0.3rem;
+        position: relative;
+        margin-left: 1rem;
+      }
+      .container-B{
+        padding-left: 1rem;
+    }
+    
+.COME .principale {
+    border-radius: 0.3rem;
+    background: #F6E1C5;
+     height: 32.6rem;
+ }
+ 
+.COME .store {
+    background: rgba(165, 52, 43, 0.69);
+    width: 100%;
+    height: 44rem;
+}
+ }
