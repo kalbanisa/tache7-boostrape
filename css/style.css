@@ -270,15 +270,10 @@ ul li a{
 }
 /* -- DEUXIEME PARTIE -- */
 .unsplash_mxovq_m_130 img{
-    /* background: url(images/unsplash_mzy_ojt_ci_701.jpeg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* position: absolute; */
-    /* left: 50%; */
-    /* top: 60%; */
-    /* right: 12rem; */
-    /* translate: -50% -50%; */
+   
     width: 52.8rem;
     height: 37.8rem; 
 }
@@ -316,15 +311,10 @@ ul li a{
 
 /* -- TROISIEM PARTIEE -- */
 .unsplash-mzy-ojt-ci-70 img{
-    /* background: url(images/unsplash_mzy_ojt_ci_701.jpeg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* position: absolute; */
-    /* left: 50%; */
-    /* top: 60%; */
-    /* right: 12rem; */
-    /* translate: -50% -50%; */
+    
     width: 52.8rem;
     height: 37.8rem; 
 }
@@ -333,7 +323,7 @@ ul li a{
     border-radius: 0.3rem;
     background: #F6E1C5 !important;
     position: relative;
-    margin-left: 0rem;
+    margin-left: 56rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -586,11 +576,8 @@ align-items: center;
         border-radius: 0.3rem;
         background: #F6E1C5 !important;
         position: relative;
-<<<<<<< HEAD
         margin-left: 0rem;
-=======
-        margin-left:0rem;
->>>>>>> 99b38a105fecd661cbfc99085331fd3293a49161
+       margin-left:0rem;
         /* margin-top: 4rem; */
         display: flex;
         flex-direction: column;
